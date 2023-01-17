@@ -51,7 +51,7 @@ class Chronometer {
   split() {
     const minutes = this.getMinutes()
     const seconds = this.getSeconds()
-    const minString = this.computeTwoDigitNumber(minutes)
+    const minString = this.computeTwoDigitNumber()
     const secString = this.computeTwoDigitNumber(seconds)
     return `${minString}:${secString}`
     
